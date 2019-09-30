@@ -1,0 +1,34 @@
+<xml version="1.0" encoding="UTF-8">
+    <customer lastName ="Adams" firstName="Maurice">
+        <address type="mailing" unit="308" street="W 4th St." number="56" zipCode="13126"/>
+        <account type="residential" accountNumber="876-543-21">
+            <address type="apartment" unit="308" street="W 4th St." number="56" zipCode="13126">
+                <meter id = "RM-4877-X4" brand="GE" type="push" location = "East side of building">
+                    <meterReading reading="650" date = "2016-12-31T00:31" flag="push"/>
+                    <meterReading reading="675" date = "2017-01-01T00:37" flag="push"/>
+                    <meterReading reading="622" date = "2017-01-02T00:38" flag="push"/>
+                </meter>      
+            </address>
+        </account>     
+    </customer>
+    <customer lastName ="Costanza" firstName="George">
+        <address type="mailing" street="E 5th St." number="65" zipCode="13126"/>
+        <account type="commercial" accountNumber="765-432-10">
+            <address type="commercial" street="Albany St." number="56" zipCode="13126">
+                <meter id = "CM-7784-D1" brand="GE" type="poll" location = "North entrance">
+                    <meterReading reading="5043" date = "2016-12-31T00:32" flag="poll"/>
+                    <meterReading reading="6152" date = "2017-01-01T00:38" flag="poll"/>
+                    <meterReading reading="7261" date = "2017-01-02T00:41" flag="poll"/>
+                </meter>      
+            </address>
+            <address type="commercial" street="Oneida St." number="72" zipCode="13126">
+                <meter id = "CM-7684-D2" brand="GE" type="push" location = "South end of basement">
+                    <meterReading reading="650" date = "2016-12-31T00:21" flag="push"/>
+                    <meterReading reading="760" date = "2017-01-01T00:23" flag="push"/>
+                    <meterReading reading="781" date = "2017-01-02T00:25" flag="push"/>
+                    <meterReading reading="722" date = "2017-01-03T00:27" flag="push"/>
+                </meter>      
+            </address>
+        </account>     
+    </customer>
+</xml>
